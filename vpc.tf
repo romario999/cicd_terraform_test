@@ -5,7 +5,5 @@ resource "aws_vpc" "this" {
 
   tags = {
     Name    	 = "terraform-student-vpc"
-    Verification = "111"
-    Verification = "222"
   }
 }
